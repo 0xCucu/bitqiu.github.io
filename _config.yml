@@ -1,0 +1,72 @@
+title: appk - BitQiu Blog
+name: appk
+email: qiuyongling@live.com
+description:
+keywords:
+skill_keywords: [PHP, Javascript, HTML+CSS, Linux, Laravel, Git, Mac, RESTful, Stackoverflow, Sublime Text, OmniGaffale, OminiPlan]
+
+timezone:    PRC
+encoding: "utf-8"
+
+url: http://appk.cc
+baseurl:  "/"
+domain:    appk.cc
+permalink:     /articles/:year/:month/:title.html
+paginate_path: 'page:num'
+paginate:   10
+source_code: https://github.com/bitqiu/bitqiu.github.io
+
+# Build settings
+markdown:    kramdown
+highlighter: pygments
+lsi:         false
+excerpt_separator: "\n\n"
+
+source:      .
+destination: ./_site
+
+quiet:    false
+defaults: []
+
+kramdown:
+  input: GFM
+  enable_coderay: true
+
+gems:
+  - jemoji
+  - rouge
+  # # # - jekyll-mentions
+  # - jekyll-sitemap
+  - jekyll-html-pipeline
+
+disqus:
+  id: overtrueme
+
+google:
+    analytics_id: UA-55452630-1
+
+# navigation
+navs:
+  -
+    href: /
+    label: Home
+
+  -
+    href: /open-source
+    label: Open-Source
+
+  -
+    href: https://github.com/bitqiu
+    label: GitHub
+    target: _blank
+
+  -
+    href: /bookmark
+    label: Bookmark
+
+  -
+    href: /about
+    label: About
+
+#popular_repos: ['pinyin', 'wechat', 'writor', 'laravel-wechat', 'laravel-lang', 'laravel-pinyin', 'latest-laravel', 'latest-lumen']
+#contribute_repos: ['laravel/framework', 'tymondesigns/jwt-auth', 'caouecs/Laravel-lang']
