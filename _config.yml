@@ -1,16 +1,16 @@
-title: appk - BitQiu Blog
-name: appk
-email: qiuyongling@live.com
+title: BitQiu Blog
+name: BitQiu
+email: i@bitqiu.cc 
 description:
-keywords:
+keywords: BitQiu
 skill_keywords: [PHP, Javascript, HTML+CSS, Linux, Laravel, Git, Mac, RESTful, Stackoverflow, Sublime Text, OmniGaffale, OminiPlan]
 
 timezone:    PRC
 encoding: "utf-8"
 
-url: http://appk.cc
+url: http://bitqiu.cc
 baseurl:  "/"
-domain:    appk.cc
+domain:    bitqiu.cc
 permalink:     /articles/:year/:month/:title.html
 paginate_path: 'page:num'
 paginate:   10
